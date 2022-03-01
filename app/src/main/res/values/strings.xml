@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">OmdbClientApp</string>
+    <string name="search_bar">Search Bar</string>
+    <string name="todo">TODO</string>
+    <string name="_8_3">8.3</string>
+    <string name="batman">Batman</string>
+</resources>

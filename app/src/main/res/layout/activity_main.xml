@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/search_bar"
+            android:importantForAutofill="no"
+            android:imeOptions="actionSearch"
+            android:digits=" ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
+            android:inputType="textFilter"
+            tools:ignore="TextFields,TextContrastCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/todo" />
+        <TextView
+            android:id="@+id/imdbpoint"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:id="@+id/movietitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+</LinearLayout>
