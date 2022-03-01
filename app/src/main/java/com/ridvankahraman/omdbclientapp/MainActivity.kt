@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val search = findViewById<EditText>(R.id.search)
         search.setOnEditorActionListener(OnEditorActionListener { v, actionId, event ->
-            val url = "https://www.omdbapi.com/?t=${v.text}&apikey=e94939d3"
+            val url = "https://www.omdbapi.com/?t=${v.text}&apikey="
             AsyncTaskHandleJson().execute(url)
             return@OnEditorActionListener true
         })
