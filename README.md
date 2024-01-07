@@ -22,4 +22,4 @@ If you'd like to contribute to the project, please submit a pull request or open
 
 ## Contact
 
-If you have any questions or suggestions, feel free to reach out to me via email: example@email.com
+If you have any questions or suggestions, feel free to reach out to me via email: ridvankahraman0@gmail.com
