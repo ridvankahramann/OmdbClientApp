@@ -1,7 +1,5 @@
 # OmdbClientApp (GridView and SearchNavbar)
 
-# Movie Search Application
-
 This Android application is developed to fetch movie data from different sources and provide users with a movie search feature.
 
 ## Features
